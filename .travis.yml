@@ -3,6 +3,5 @@ python:
  - "3.8"
  - "nightly"
 install:
- - "pip install python"
- - "pip install -r pytest"
+ - "pip install pytest"
 script: python -m pytest test_duckduckgo.py
