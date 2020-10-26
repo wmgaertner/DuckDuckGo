@@ -4,4 +4,5 @@ python:
  - "nightly"
 install:
  - "pip install pytest"
-script: python -m pytest test_duckduckgo.py
+ - "pip install requests"
+script: python -m pytest duckduckgo
